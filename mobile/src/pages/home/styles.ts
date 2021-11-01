@@ -1,4 +1,4 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native'
 
 const Style = styled.View`
   display: flex;
@@ -8,11 +8,12 @@ const Style = styled.View`
   height: 100%;
 
   background-color: black;
-`;
+`
 
 export const Title = styled.Text`
   color: white;
-  font-size: 24px;
-`;
 
-export default Style;
+  font-size: 24px;
+`
+
+export default Style
