@@ -1,13 +1,13 @@
 import React from 'react'
 
-import Home from './src/pages/home'
+import SignInUp from './src/pages/SignInUp'
 import theme from './src/styles/themes'
 
 import { ThemeProvider } from 'styled-components'
 
 const App = () => (
   <ThemeProvider theme={theme}>
-    <Home />
+    <SignInUp />
   </ThemeProvider>
 )
 

@@ -1,5 +1,5 @@
 {
-  "compilerOptions": { "baseUrl": "./src" },
+  "compilerOptions": { "baseUrl": "./src", "jsx": "react-native" },
   "extends": "expo/tsconfig.base",
   "files": ["./src/styles/themes/styled.d.ts"]
 }
