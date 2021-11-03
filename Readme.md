@@ -3,6 +3,7 @@
 Projeto utilizado para estudar/praticar conhecimentos full-stack.
 
 ![print of home page](./design/homePrint.png)
+![print of mobile home page](./design/mobilePrint.png)
 
 ## Prototipação
 
