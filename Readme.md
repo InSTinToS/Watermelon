@@ -2,7 +2,15 @@
 
 Projeto utilizado para estudar/praticar conhecimentos full-stack.
 
+## Prints
+
+### Web
+
 ![print of home page](./design/homePrint.png)
+
+### Mobile
+
+<img src="./design/mobilePrint.png" alt="Image" style="display: block; margin: 0 auto" />
 
 ## Prototipação
 
