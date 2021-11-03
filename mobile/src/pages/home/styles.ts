@@ -6,14 +6,10 @@ const Style = styled.View`
   justify-content: center;
 
   height: 100%;
-
-  background-color: black;
 `
 
 export const Title = styled.Text`
-  color: white;
-
-  font-size: 24px;
+  color: ${({ theme }) => theme.colors.primary};
 `
 
 export default Style
