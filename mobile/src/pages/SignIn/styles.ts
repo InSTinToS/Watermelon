@@ -20,7 +20,7 @@ export const Header = styled.View`
   justify-content: center;
 
   width: 300px;
-  margin-bottom: ${({ theme }) => theme.sizes['3']};
+  margin-bottom: ${({ theme }) => theme.sizes['3'] + 'px'};
 `
 
 export const ForgotPassword = styled(MyButton).attrs(({ theme }) => {

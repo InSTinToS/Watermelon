@@ -10,6 +10,7 @@ import Style, {
 
 import MyButton from '../../components/Native/MyButton'
 import MyTextInput from '../../components/Native/MyTextInput'
+import { ScreenType } from '../../types/reactNavigation'
 
 import { LinearGradient } from 'expo-linear-gradient'
 import { Formik } from 'formik'
@@ -17,7 +18,9 @@ import { Image } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import { ThemeContext } from 'styled-components'
 
-const SignInUp = () => {
+interface SignInProps extends ScreenType<'signIn'> {}
+
+const SignIn = ({ navigation }: SignInProps) => {
   const theme = useContext(ThemeContext)
 
   return (
@@ -68,7 +71,10 @@ const SignInUp = () => {
           )}
         </Formik>
 
-        <Signup title='Cadastrar' />
+        <Signup
+          title='Cadastrar'
+          onPress={() => navigation.navigate('signUp')}
+        />
 
         <ForgotPassword title='Esqueci minha senha' />
 
@@ -87,4 +93,4 @@ const SignInUp = () => {
   )
 }
 
-export default SignInUp
+export default SignIn
