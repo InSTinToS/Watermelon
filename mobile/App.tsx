@@ -5,10 +5,7 @@ import theme from './src/styles/themes'
 import SignUp from './src/pages/SignUp'
 
 import { NavigationContainer } from '@react-navigation/native'
-import {
-  createNativeStackNavigator,
-  NativeStackScreenProps
-} from '@react-navigation/native-stack'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { ThemeProvider } from 'styled-components'
 
 const Stack = createNativeStackNavigator()

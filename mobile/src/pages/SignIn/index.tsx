@@ -43,13 +43,7 @@ const SignIn = ({ navigation }: SignInProps) => {
           initialValues={{ email: '', password: '' }}
           onSubmit={(values: any) => console.log(values)}
         >
-          {({
-            values,
-            handleBlur,
-            handleReset,
-            handleSubmit,
-            handleChange
-          }) => (
+          {({ values, handleBlur, handleSubmit, handleChange }) => (
             <>
               <MyTextInput
                 placeholder='E-mail'
